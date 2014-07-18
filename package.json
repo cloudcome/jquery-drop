@@ -1,0 +1,28 @@
+{
+  "name": "jquery-drop",
+  "version": "1.0.1",
+  "description": "A simple drop for jquery OR yquery",
+  "keywords": [
+    "jquery",
+    "yquery",
+    "ydr",
+    "drag",
+    "drop"
+  ],
+  "author": {
+    "name": "cloudcome",
+    "email": "cloudcome@163.com"
+  },
+  "homepage": "https://ydr.me/",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/cloudcome/jquery-drop"
+  },
+  "licenses": "MIT",
+  "spm": {
+    "main": "jquery-drop.js",
+    "dependencies": {
+      "jquery-drag": "1.2.1"
+    }
+  }
+}
