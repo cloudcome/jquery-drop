@@ -73,3 +73,11 @@ defaults = {
 };
 ````
 
+
+#SET OPTIONS
+```
+$.fn.drop.defaults;
+```
+
+
+
