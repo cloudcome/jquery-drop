@@ -16,6 +16,8 @@
  * 构造
  * 2014年7月18日19:53:11
  * SPM 模块化
+ * 2015年11月10日15:27:50
+ * [fixed] 添加缺失的未定义变量udf
  *
  */
 
@@ -26,7 +28,8 @@ module.exports = function($) {
     if(!$.fn.drag) require('jquery-drag')($);
 
     // 保存实例化对象的data键
-    var datakey = 'jquery-drop',
+    var udf,
+        datakey = 'jquery-drop',
         // 默认参数
         defaults = {
             // 释放类型

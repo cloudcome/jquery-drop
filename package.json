@@ -22,7 +22,7 @@
   "spm": {
     "main": "jquery-drop.js",
     "dependencies": {
-      "jquery-drag": "1.2.1"
+      "jquery-drag": "1.0.0"
     }
   }
 }
